@@ -1,0 +1,44 @@
+.cards {
+  position: relative;
+}
+
+.alphabets {
+  position: absolute;
+  border-radius: 20px;
+  width: 500px;
+  padding: 20px;
+  background-color: beige;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+
+  height: 200px;
+  font-size: 40px;
+  margin: 10px;
+}
+.sailorBlue {
+  color: #00539cff;
+}
+.mint {
+  color: #eea47fff;
+}
+.swipe {
+  position: absolute;
+}
+
+.cardcontainer {
+  top: 0;
+  left: 30%;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardcontainer {
+    top: 0;
+    left: 20px;
+    position: relative;
+  }
+  .alphabets {
+    width: 200px;
+  }
+}

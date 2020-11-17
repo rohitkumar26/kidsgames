@@ -3,3 +3,25 @@
   color: dodgerblue;
   font-size: 35px;
 }
+
+.mainpage {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.links {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  background-color: lightcoral;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
